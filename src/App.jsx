@@ -1,9 +1,16 @@
+import Header from "./components/Header/Header";
+import Hero from "./components/Hero/Hero";
+import VisMis from "./components/VisMis/VisMis";
+
 function App() {
 
   return (
-    <div className="bg-red-400">
-      Hola mundo
-    </div>
+    <>
+    <Header/>
+
+    <Hero />
+    <VisMis/>
+    </>
   )
 }
 
