@@ -7,9 +7,7 @@ function App() {
   return (
     <>
     <Header/>
-
-    <Hero />
-    <VisMis/>
+    <Hero/>    
     </>
   )
 }
