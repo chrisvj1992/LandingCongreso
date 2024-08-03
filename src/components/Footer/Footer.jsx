@@ -12,7 +12,7 @@ import imgUni from "../../assets/images/logoUniversidadCuau.png";
 
 const Footer = () => {
   return (
-    <footer id="Contacto" className="bg-quaternaryColor p-8 xl:p-20">
+    <footer id="Footer" className="bg-quaternaryColor p-8 xl:p-20">
       <div className="flex flex-col md:flex-row items-center justify-between gap-4 border-b border-gray-500 pb-8">
         {/* Logo */}
         <div className="w-1/6">

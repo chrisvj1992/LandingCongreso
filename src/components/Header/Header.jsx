@@ -14,7 +14,7 @@ const Header = () => {
         <div className={`fixed top-0 left-0 h-full w-[60%] rounded-r-md  ${showMenu ? '' : '-left-60'}bg-primaryColor transition-all duration-500`}></div>
         <div className={`fixed top-0 left-0 h-full w-[70%] rounded-r-md  ${showMenu ? '' : '-left-70'}bg-primaryColor opacity-70 transition-all duration-500`}></div>
         <nav className={`fixed bg-tertiaryColor w-[80%] md:w-[90%] rounded-r-md xl:w-full h-full ${showMenu ? 'left-0 bg-opacity-60' : '-left-full bg-opacity-100'} top-0  xl:static flex-1 flex flex-col xl:flex-row items-center justify-center gap-10 transition-all duration-500`} >
-            <a href="#Home" class="bebas-neue-regular" className="text-2xl font-medium text-primaryColor">
+            <a href="#Ponentes" class="bebas-neue-regular" className="text-2xl font-medium text-primaryColor">
                 Ponentes
             </a>
             <a href="#" class="bebas-neue-regular" className="text-2xl font-medium text-primaryColor">
@@ -26,7 +26,7 @@ const Header = () => {
             <a href="#" class="bebas-neue-regular" className="text-2xl font-medium text-primaryColor">
                 Abstracts
             </a>
-            <a href="#" class="bebas-neue-regular" className="text-2xl font-medium text-primaryColor">
+            <a href="#Footer" class="bebas-neue-regular" className="text-2xl font-medium text-primaryColor">
                 Contacto
             </a>
         </nav>
