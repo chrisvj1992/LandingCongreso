@@ -1,6 +1,9 @@
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
-import VisMis from "./components/VisMis/VisMis";
+import Ponentes from "./components/Ponentes/Ponentes";
+import Reviews from "./components/Reviews/Reviews";
+import Footer from "./components/Footer/Footer";
+
 
 function App() {
 
@@ -8,6 +11,9 @@ function App() {
     <>
     <Header/>
     <Hero/>    
+    <Ponentes/>
+    <Reviews/>
+    <Footer/>
     </>
   )
 }
