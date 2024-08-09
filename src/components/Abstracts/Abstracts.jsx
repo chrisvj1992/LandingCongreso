@@ -2,9 +2,9 @@ import React from "react";
 // Icons
 import { RiDoubleQuotesL, RiDoubleQuotesR } from "react-icons/ri";
 
-const Reviews = () => {
+const Abstracts = () => {
   return (
-    <div className="p-8 flex flex-col gap-8 bg-gray-100">
+    <section id="Abstracts" className="p-8 flex flex-col pt-24 gap-8 bg-gray-100">
       <h1 className="text-[40px] text-center font-black">
         Un poco acerca de nuestros Abstracts
       </h1>
@@ -53,8 +53,8 @@ const Reviews = () => {
           </h5>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
-export default Reviews;
+export default Abstracts;

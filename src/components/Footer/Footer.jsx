@@ -22,17 +22,13 @@ const Footer = () => {
         </div>
         {/* Social media */}
         <nav className="flex items-center gap-4">
-          <a href="#" className="block text-white p-4 bg-primaryColor rounded-full">
+          <a href="https://www.instagram.com/congresonacionalcirugiaslp/" className="block text-white p-4 bg-primaryColor rounded-full">
             {" "}
             <RiInstagramLine />{" "}
           </a>
           <a href="#" className="block text-white p-4 bg-primaryColor rounded-full">
             {" "}
             <RiFacebookLine />{" "}
-          </a>
-          <a href="#" className="block text-white p-4 bg-primaryColor rounded-full">
-            {" "}
-            <RiTwitterLine />{" "}
           </a>
         </nav>
       </div>
