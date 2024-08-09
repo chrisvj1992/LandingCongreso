@@ -15,8 +15,8 @@ const Footer = () => {
     <footer id="Footer" className="bg-quaternaryColor p-8 xl:p-20">
       <div className="flex flex-col md:flex-row items-center justify-between gap-4 border-b border-gray-500 pb-8">
         {/* Logo */}
-        <div className="w-1/6">
-          <a href="#" className="text-2xl font-bold relative bg-quaternaryColor">
+        <div className="w-1/2 md:w-1/6">
+          <a href="#" className=" relative bg-quaternaryColor">
             <img src={imgUni} alt="" />
           </a>
         </div>

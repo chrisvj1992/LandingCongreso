@@ -12,7 +12,7 @@ const Header = () => {
         </div>
         
         <div className={`fixed top-0 h-full md:w-0 ${showMenu ? 'left-0 w-full' : '-left-full'} bg-slate-600 bg-opacity-40 transition-all duration-500`}></div>
-        <nav className={`fixed bg-tertiaryColor w-[80%] md:w-[90%] rounded-r-md xl:w-full h-full ${showMenu ? 'left-0 bg-opacity-85' : '-left-full'} top-0  xl:static flex-1 flex flex-col xl:flex-row items-center justify-center gap-10 transition-all duration-500`} >
+        <nav className={`fixed bg-tertiaryColor w-[70%] rounded-r-md xl:w-full h-full ${showMenu ? 'left-0' : '-left-full'} top-0  xl:static flex-1 flex flex-col xl:flex-row items-center justify-center gap-10 transition-all duration-500`} >
             <a href="#Home" onClick={() => setShowMenu(false)} class="bebas-neue-regular" className="text-3xl font-medium text-primaryColor">
                 Home
             </a>
