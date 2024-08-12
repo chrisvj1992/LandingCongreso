@@ -26,7 +26,7 @@ const Footer = () => {
             {" "}
             <RiInstagramLine />{" "}
           </a>
-          <a href="#" className="block text-white p-4 bg-primaryColor rounded-full">
+          <a href="https://www.facebook.com/profile.php?id=61563796593516&mibextid=LQQJ4d&rdid=KB9ygGeDo7ql1ZUH&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F7iiRktX3oeomRaVQ%2F%3Fmibextid%3DLQQJ4d" className="block text-white p-4 bg-primaryColor rounded-full">
             {" "}
             <RiFacebookLine />{" "}
           </a>

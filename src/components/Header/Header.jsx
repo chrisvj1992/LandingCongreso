@@ -1,12 +1,31 @@
-import React, {useState} from "react";
+import React, { useState, useEffect } from 'react';
 import Logo from "../../assets/images/logo.png";
 import { IoMdMenu, IoMdClose } from "react-icons/io";
 
 
 const Header = () => {
     const [showMenu, setShowMenu] = useState(false);
+    const [isScrolled, setIsScrolled] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+          if (window.scrollY > 50) {
+            setIsScrolled(true);
+          } else {
+            setIsScrolled(false);
+          }
+        };
+    
+        window.addEventListener('scroll', handleScroll);
+    
+        // Cleanup
+        return () => {
+          window.removeEventListener('scroll', handleScroll);
+        };
+      }, []);
+    
     return (
-    <header className="fixed flex bg-tertiaryColor items-center justify-between xl:justify-start w-full py-4 px-8 h-[14vh] z-50 " >
+    <header id="header" className={`fixed flex bg-tertiaryColor items-center justify-between xl:justify-start py-4 px-8 h-[14vh] z-50 my-3 mx-5 md:mx-16 rounded-md ${isScrolled ? 'opacity-90' : 'opacity-100'}`} >
         <div className="md:w-1/6 w-1/2 text-center">
             <a href="#"><img className="" src={Logo} alt="Logo" /></a>
         </div>
@@ -33,9 +52,11 @@ const Header = () => {
             </a>
         </nav>
         
-        <button onClick={() => setShowMenu(!showMenu)} className={`xl:hidden text-3xl p-2 absolute ${showMenu ? '' :'hidden' }`} ><IoMdClose /></button>
+        <button onClick={() => setShowMenu(!showMenu)} className={`xl:hidden text-3xl p-2 absolute right-9 ${showMenu ? '' :'hidden' }`} ><IoMdClose /></button>
         <button onClick={() => setShowMenu(!showMenu)} className={`xl:hidden text-3xl p-2 ${showMenu ? 'hidden' :'' }`}><IoMdMenu /></button>
     </header>
+
+    
     );
 };
 
