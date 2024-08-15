@@ -33,7 +33,7 @@ const Footer = () => {
         </nav>
       </div>
       <div className="mt-8">
-        <nav className="mt-4 flex flex-col md:flex-row items-center justify-between gap-4">
+        <nav className=" w-full mt-4 flex flex-col md:flex-row items-center justify-center gap-8">
           <a
             href="#"
             className="text-gray-300 mt-4 hover:text-white transition-colors"

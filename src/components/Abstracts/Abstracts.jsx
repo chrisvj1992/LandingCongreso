@@ -5,8 +5,8 @@ import { RiDoubleQuotesL, RiDoubleQuotesR } from "react-icons/ri";
 const Abstracts = () => {
   return (
     <section id="Abstracts" className="p-8 flex flex-col pt-24 gap-8 bg-gray-100">
-      <h1 className="text-[40px] text-center font-black">
-        Un poco acerca de nuestros Abstracts
+      <h1 className="text-2xl text-center font-black">
+        Dr. Juan Ricardo Perez Nieto
       </h1>
       <div className="flex justify-center gap-4">
         <span className="text-5xl text-primary">

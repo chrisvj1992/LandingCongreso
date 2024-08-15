@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import Logo from "../../assets/images/logo.png";
 import { IoMdMenu, IoMdClose } from "react-icons/io";
 
+import { Link } from 'react-router-dom';
+
 
 const Header = () => {
     const [showMenu, setShowMenu] = useState(false);
@@ -30,26 +32,28 @@ const Header = () => {
             <a href="#"><img className="" src={Logo} alt="Logo" /></a>
         </div>
         
-        <div className={`fixed top-0 h-full md:w-0 ${showMenu ? 'left-0 w-full' : '-left-full'} bg-slate-600 bg-opacity-40 transition-all duration-500`}></div>
+        <div className={`fixed top-0 h-full xl:w-0 ${showMenu ? 'left-0 w-full' : '-left-full'} bg-slate-600 bg-opacity-40 transition-all duration-500`}></div>
         <nav className={`fixed bg-tertiaryColor w-[70%] rounded-r-md xl:w-full h-full ${showMenu ? 'left-0' : '-left-full'} top-0  xl:static flex-1 flex flex-col xl:flex-row items-center justify-center gap-10 transition-all duration-500`} >
-            <a href="#Home" onClick={() => setShowMenu(false)} class="bebas-neue-regular" className="text-3xl font-medium text-primaryColor">
-                Home
+            <a href="#Home" onClick={() => setShowMenu(false)} class="bebas-neue-regular" className="text-2xl font-medium text-primaryColor">
+                Inicio
             </a>
-            <a href="#Ponentes" onClick={() => setShowMenu(false)} class="bebas-neue-regular" className="text-3xl font-medium text-primaryColor">
+            <a href="#Ponentes" onClick={() => setShowMenu(false)} class="bebas-neue-regular" className="text-2xl font-medium text-primaryColor">
                 Ponentes
             </a>
-            <a href="#" onClick={() => setShowMenu(false)} class="bebas-neue-regular" className="text-3xl font-medium text-primaryColor">
+            <a href="#" onClick={() => setShowMenu(false)} class="bebas-neue-regular" className="text-2xl font-medium text-primaryColor">
                 Talleres
             </a>
-            <a href="#" onClick={() => setShowMenu(false)} class="bebas-neue-regular" className="text-3xl font-medium text-primaryColor">
+            <a href="#" onClick={() => setShowMenu(false)} class="bebas-neue-regular" className="text-2xl font-medium text-primaryColor">
                 Itinerario
             </a>
-            <a href="#Abstracts" onClick={() => setShowMenu(false)} class="bebas-neue-regular" className="text-3xl font-medium text-primaryColor">
-                Abstracts
-            </a>
-            <a href="#Footer" onClick={() => setShowMenu(false)} class="bebas-neue-regular" className="text-3xl font-medium text-primaryColor">
+            <a href="#Footer" onClick={() => setShowMenu(false)} class="bebas-neue-regular" className="text-2xl font-medium text-primaryColor">
                 Contacto
             </a>
+            <Link to="https://forms.gle/TLsShMxdqFhtqSZv7">
+                <button className="bg-primaryColor text-white py-2 px-6 rounded-xl text-xl">
+                            Registrate!
+                </button>
+            </Link>
         </nav>
         
         <button onClick={() => setShowMenu(!showMenu)} className={`xl:hidden text-3xl p-2 absolute right-9 ${showMenu ? '' :'hidden' }`} ><IoMdClose /></button>
