@@ -25,7 +25,7 @@ const Header = () => {
       }, []);
     
     return (
-    <header id="header" className={`fixed flex bg-tertiaryColor items-center justify-between xl:justify-start py-4 px-8 h-[14vh] z-50 my-3 mx-5 md:mx-16 rounded-md ${isScrolled ? 'opacity-90' : 'opacity-100'}`} >
+    <header id="header" className={`fixed flex bg-tertiaryColor items-center justify-between xl:justify-start py-4 px-8 h-[14vh] z-50 my-3 mx-5 md:mx-14 rounded-md ${isScrolled ? 'opacity-90' : 'opacity-100'}`} >
         <div className="md:w-1/6 w-1/2 text-center">
             <a href="#"><img className="" src={Logo} alt="Logo" /></a>
         </div>

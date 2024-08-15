@@ -14,9 +14,7 @@ function App() {
     <Hero/>    
     <MisVis/>
     <PonentesSection/>
-    <div className="h-96 w-full bg-green-500"> <h2>Talleres</h2></div>
     <Abstracts/>
-    <div className="h-96 w-full bg-red-800"> <h2>Comite organizador</h2></div>
     <Footer/>
     </>
   )
