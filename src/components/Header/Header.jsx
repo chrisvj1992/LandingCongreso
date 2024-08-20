@@ -51,7 +51,7 @@ const Header = () => {
             </a>
             <Link to="https://forms.gle/TLsShMxdqFhtqSZv7">
                 <button className="bg-primaryColor text-white py-2 px-6 rounded-xl text-xl">
-                            Registrate!
+                            Inscribete!
                 </button>
             </Link>
         </nav>

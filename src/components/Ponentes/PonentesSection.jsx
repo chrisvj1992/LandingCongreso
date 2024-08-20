@@ -16,7 +16,7 @@ const PonentesSection = () => {
         <div className="flex flex-col md:flex-row items-center gap-10 md:gap-20">
             <img src={ponente1} alt="" className="rounded-3xl w-40"/>
             <img src={ponente2} alt="" className="rounded-3xl w-40"/>
-            <img src={ponente3} alt="" className="rounded-3xl w-40"/>
+            <img src={ponente3} alt="" className="rounded-3xl w-40 border-quaternaryColor border-3"/>
         </div>
 
         <div>

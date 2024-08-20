@@ -13,7 +13,7 @@ const Hero = () => {
                 <div>
                     <Link to="https://forms.gle/TLsShMxdqFhtqSZv7">
                         <button className="bg-primaryColor text-white py-2 px-8 rounded-xl text-xl">
-                            Registrate!
+                            Inscribete!
                         </button>
                     </Link>
                 </div>

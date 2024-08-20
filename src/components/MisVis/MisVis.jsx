@@ -5,7 +5,10 @@ const MisVis = () => {
     return (
     <section id="MisVis" className=" flex flex-col w-full py-16 bg-primaryColor">
         <div className="flex flex-col md:flex-row h-1/2 m-10 gap-16 items-center">
-            <img className="w-2/3 md:w-1/4" src={logoUni} alt="logo Universidad Cuauhtemoc" />
+            <div className="flex flex-col gap-2">
+                <img src={logoUni} alt="logo Universidad Cuauhtemoc" />
+                <h2 className="text-white text-4xl md:text-2xl font-bold tracking-widest text-center">San Luis Potosí</h2>
+            </div>
             <p className="text-white text-center text-xl md:text-start">Nuestro objetivo es desarrollar una experiencia educativa integral para los estudiantes de medicina que incluya conferencias magistrales, talleres prácticos,  y mesas redondas con reconocidos cirujanos, con el fin de fortalecer sus competencias.</p>
         </div>
         <div className="flex flex-col items-center justify-center md:flex-row  p-10 gap-10">
