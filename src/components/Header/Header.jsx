@@ -40,7 +40,7 @@ const Header = () => {
             <a href="#Ponentes" onClick={() => setShowMenu(false)} class="bebas-neue-regular" className="text-2xl font-medium text-primaryColor">
                 Ponentes
             </a>
-            <a href="#" onClick={() => setShowMenu(false)} class="bebas-neue-regular" className="text-2xl font-medium text-primaryColor">
+            <a href="#Talleres" onClick={() => setShowMenu(false)} class="bebas-neue-regular" className="text-2xl font-medium text-primaryColor">
                 Talleres
             </a>
             <a href="#" onClick={() => setShowMenu(false)} class="bebas-neue-regular" className="text-2xl font-medium text-primaryColor">

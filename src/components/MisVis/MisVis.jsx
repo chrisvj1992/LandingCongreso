@@ -4,12 +4,12 @@ import logoUni from "../../assets/images/logoUniversidadCuau.png"
 const MisVis = () => {
     return (
     <section id="MisVis" className=" flex flex-col w-full py-16 bg-primaryColor">
-        <div className="flex flex-col md:flex-row h-1/2 m-10 gap-16 items-center">
-            <div className="flex flex-col gap-2">
+        <div className="flex flex-col md:flex-row h-1/2 mx-32 my-10 gap-8 items-center">
+            <div className="flex flex-col gap-1">
                 <img src={logoUni} alt="logo Universidad Cuauhtemoc" />
-                <h2 className="text-white text-4xl md:text-2xl font-bold tracking-widest text-center">San Luis Potosí</h2>
+                <h2 className="text-white text-lg md:text-xl font-bold tracking-widest text-center">San Luis Potosí</h2>
             </div>
-            <p className="text-white text-center text-xl md:text-start">Nuestro objetivo es desarrollar una experiencia educativa integral para los estudiantes de medicina que incluya conferencias magistrales, talleres prácticos,  y mesas redondas con reconocidos cirujanos, con el fin de fortalecer sus competencias.</p>
+            <p className=" text-white text-center text-xl md:text-start">Nuestro objetivo es desarrollar una experiencia educativa integral para los estudiantes de medicina que incluya conferencias magistrales, talleres prácticos,  y mesas redondas con reconocidos cirujanos, con el fin de fortalecer sus competencias.</p>
         </div>
         <div className="flex flex-col items-center justify-center md:flex-row  p-10 gap-10">
             <div className="bg-tertiaryColor flex flex-col xl:w-2/5 items-center justify-center rounded-md p-10">

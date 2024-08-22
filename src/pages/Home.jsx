@@ -3,8 +3,8 @@ import Header from '../components/Header/Header';
 import Hero from "../components/Hero/Hero";
 import MisVis from "../components/MisVis/MisVis";
 import PonentesSection from "../components/Ponentes/PonentesSection";
-import Abstracts from "../components/Abstracts/Abstracts";
 import Footer from "../components/Footer/Footer";
+import Talleres from "../components/Talleres/Talleres";
 
 const Home = () => {
   return (
@@ -13,6 +13,7 @@ const Home = () => {
     <Hero/>    
     <MisVis/>
     <PonentesSection/>
+    <Talleres/>
     <Footer/>
     </section>
   );
