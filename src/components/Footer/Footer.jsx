@@ -17,7 +17,7 @@ const Footer = () => {
           <a href="#" className=" relative bg-quaternaryColor">
             <div className="flex flex-col">
                 <img src={imgUni} alt="logo Universidad Cuauhtemoc" />
-                <h2 className="text-white text-lg md:text-2xl  font-bold tracking-widest text-center">San Luis Potosí</h2>
+                <h2 className="text-white text-md md:text-2xl  font-bold tracking-widest text-center">San Luis Potosí</h2>
             </div>
           </a>
         </div>

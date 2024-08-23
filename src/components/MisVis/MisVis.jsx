@@ -4,7 +4,7 @@ import logoUni from "../../assets/images/logoUniversidadCuau.png"
 const MisVis = () => {
     return (
     <section id="MisVis" className=" flex flex-col w-full py-16 bg-primaryColor">
-        <div className="flex flex-col md:flex-row h-1/2 mx-32 my-10 gap-8 items-center">
+        <div className="flex flex-col md:flex-row h-1/2 mx-16 my-10 gap-8 items-center">
             <div className="flex flex-col gap-1">
                 <img src={logoUni} alt="logo Universidad Cuauhtemoc" />
                 <h2 className="text-white text-lg md:text-xl font-bold tracking-widest text-center">San Luis Potosí</h2>
