@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Logo from "../../assets/images/logo.png";
 import { IoMdMenu, IoMdClose } from "react-icons/io";
-
 import { Link } from 'react-router-dom';
 
 
@@ -43,6 +42,11 @@ const Header = () => {
             <a href="#Talleres" onClick={() => setShowMenu(false)} class="bebas-neue-regular" className="text-2xl font-medium text-primaryColor">
                 Talleres
             </a>
+            <Link to="./Abstracts">
+                <p href="#" onClick={() => setShowMenu(false)} class="bebas-neue-regular" className="text-2xl font-medium text-primaryColor">
+                    Abstracts
+                </p>
+            </Link>
             <a href="#" onClick={() => setShowMenu(false)} class="bebas-neue-regular" className="text-2xl font-medium text-primaryColor">
                 Itinerario
             </a>
@@ -51,7 +55,7 @@ const Header = () => {
             </a>
             <Link to="https://forms.gle/TLsShMxdqFhtqSZv7">
                 <button className="bg-primaryColor text-white py-2 px-6 rounded-xl text-xl">
-                            Inscribete!
+                            Inscríbete!
                 </button>
             </Link>
         </nav>

@@ -55,7 +55,7 @@ const Footer = () => {
       </div>
       <div className="mt-20">
         <p className="text-gray-300 text-center">
-          Congreso nacional de cirugia 2024 
+        I Congreso Nacional Estudiantil de Cirugía 2024
         </p>
       </div>
     </footer>

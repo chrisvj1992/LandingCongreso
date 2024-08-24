@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import RegistroEnLinea from './pages/RegistroEnLinea';
+import Abstracts from './pages/Abstracts';
 import NotFound from './pages/NotFound';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/RegistroEnLinea" element={<RegistroEnLinea />} />
+          <Route path="/Abstracts" element={<Abstracts />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
