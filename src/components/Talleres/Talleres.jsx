@@ -37,9 +37,9 @@ const Talleres = () => {
                     <div className={` w-full md:w-1/2 p-10 transition-all duration-1000 ${isHalfway ? '' : '-translate-x-[1600px]'}`}>
                         <img src={BoletoMiercoles} alt="" />
                     </div>
-                    <Link to="">
+                    <Link to="https://forms.gle/C99xnKkHZeXfZfTZ7">
                     <button className="bg-primaryColor text-white py-2 px-6 m-5 md:m-10 rounded-xl text-xl">
-                                Inscribete a los talleres!
+                                Inscríbete a los talleres!
                     </button>
                     </Link>
             </section>

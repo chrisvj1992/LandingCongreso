@@ -11,7 +11,7 @@ const PonentesSection = () => {
     return (
     <section id="Ponentes" className="bg-gray-100 py-28 flex flex-col items-center justify-center gap-8">
         <h1 className="text-2xl font-medium text-gray-800 text-center"> 
-            Ponentes que nos acompañaran
+            Ponentes que nos acompañarán
         </h1>
         <div className="flex flex-col md:flex-row items-center gap-10 md:gap-20">
             <img src={ponente1} alt="" className="rounded-3xl w-40"/>
