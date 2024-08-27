@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import RegistroEnLinea from './pages/RegistroEnLinea';
 import Abstracts from './pages/Abstracts';
 import NotFound from './pages/NotFound';
+import PreguntasFrec from './pages/PreguntasFrec';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/RegistroEnLinea" element={<RegistroEnLinea />} />
           <Route path="/Abstracts" element={<Abstracts />} />
+          <Route path="/PreguntasFrecuentes" element={<PreguntasFrec />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>

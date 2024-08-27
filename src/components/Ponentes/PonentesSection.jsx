@@ -21,18 +21,14 @@ const PonentesSection = () => {
 
         <div>
             <h1 className="text-2xl text-center font-black">
-                Dr. Juan Ricardo Perez Nieto
+            José de Letamendi y Manjarrés
             </h1>
             <div className="flex justify-center gap-4">
                 <span className="text-5xl text-primary">
                 <RiDoubleQuotesL />
                 </span>
-                <p className="max-w-2xl text-center text-gray-500">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus vel
-                lobortis tincidunt fames quisque mauris at diam. Nullam morbi ipsum
-                turpis amet id posuere torto quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit in voluptate velit esse cillum dolore.
+                <p className="max-w-4xl text-center text-gray-500">
+                El que solo sabe medicina, ni medicina sabe
                 </p>
                 <span className="text-5xl text-primary">
                 <RiDoubleQuotesR />

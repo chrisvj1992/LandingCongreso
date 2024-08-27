@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="md:col-span-5 flex items-center justify-center p-12 mt-24 md:mt-16">
             <div className="flex flex-col gap-8">
                 <h1 className="text-5xl md:text-7xl font-bold text-quaternaryColor leading-[3.5rem] md:leading-[5.5rem]"> Bienvenidos al Primer Congreso Nacional de Cirugía</h1>
-                <p className="text-gray-500 text-xl leading-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis condimentum nisi, mattis condimentum ex interdum eget. Etiam et nulla ipsum.</p>
+                <p className="text-gray-500 text-xl leading-6">El primer Congreso Nacional Estudiantil de Cirugía de la Universidad Cuauhtémoc campus San Luis Potosí, resalta distintos elementos enriquecedores para el área de la salud como lo son la innovación, la tecnología y la medicina de primer contacto.</p>
                 <div>
                     <Link to="https://forms.gle/TLsShMxdqFhtqSZv7">
                         <button className="bg-primaryColor text-white py-2 px-8 rounded-xl text-xl">

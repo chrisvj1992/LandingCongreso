@@ -8,11 +8,11 @@ const Abstracts = () => {
       <div className='h-[90vh] bg-cover bg-center custom-bg'>
         <Link to="/">
           <button className="bg-primaryColor text-white py-2 px-6 rounded-xl text-xl m-10">
-            Atras
+            Atrás
           </button>
         </Link>
         <div className=' flex flex-col items-center justify-center gap-5'>
-          <h1 className='text-4xl font-bold text-center text-gray-900'>Concurso de Abstracts</h1>
+          <h1 className='max-w-6xl font-bold text-center text-gray-900'>Concurso de Abstracts</h1>
           <p className='w-1/2 md:1/3 text-lg font-semibold text-justify text-gray-500'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar
             sollicitudin ipsum, id consectetur lectus ultricies ac. Nulla facilisi.

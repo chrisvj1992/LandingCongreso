@@ -7,6 +7,7 @@ import {
 } from "react-icons/ri";
 
 import imgUni from "../../assets/images/logoUniversidadCuau.png";
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -31,7 +32,7 @@ const Footer = () => {
             {" "}
             <RiFacebookLine />{" "}
           </a>
-          <a href="https://www.facebook.com/profile.php?id=61563796593516&mibextid=LQQJ4d&rdid=KB9ygGeDo7ql1ZUH&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F7iiRktX3oeomRaVQ%2F%3Fmibextid%3DLQQJ4d" className="block text-white p-4 bg-primaryColor rounded-full">
+          <a href="https://www.tiktok.com/@congreso_nacional_ucslp?is_from_webapp=1&sender_device=pc" className="block text-white p-4 bg-primaryColor rounded-full">
             {" "}
             <RiTiktokLine />{" "}
           </a>
@@ -39,12 +40,10 @@ const Footer = () => {
       </div>
       <div className="mt-8">
         <nav className=" w-full mt-4 flex flex-col md:flex-row items-center justify-center gap-8">
-          <a
-            href="#"
-            className="text-gray-300 mt-4 hover:text-white transition-color"
-          >
-            Preguntas Frecuentes
-          </a>
+        <Link to="/PreguntasFrecuentes" 
+            className="text-gray-300 mt-4 hover:text-white transition-color">
+        Preguntas Frecuentes
+        </Link>
           <a
             href="#"
             className="text-gray-300 mt-4 hover:text-white transition-color"
