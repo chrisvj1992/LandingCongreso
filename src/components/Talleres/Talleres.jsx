@@ -29,7 +29,7 @@ const Talleres = () => {
 
     return (
         <div className='bg-tertiaryColor'>
-            <h1 className=' pt-5 text-4xl font-bold text-center justify-center text-primaryColor mx-5'> Inscribete a los talleres que tenemos para ti!</h1>
+            <h1 className=' pt-5 text-4xl font-bold text-center justify-center text-primaryColor mx-5'> Inscríbete a los talleres que tenemos para ti!</h1>
             <section id='Talleres' className={`flex flex-col md:flex-row w-full items-center justify-center `}>
                     <div className={` w-full md:w-1/2 p-10 transition-all duration-1000 ${isHalfway ? '' : '-translate-x-[800px]'}`} >
                         <img src={BoletoJueves} alt="" />

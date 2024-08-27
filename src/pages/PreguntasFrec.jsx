@@ -42,7 +42,7 @@ const PreguntasFrec = () => {
           </div>
         </div>
       </div>
-      <Footer className="mt-20"/>
+      <Footer className=" mt-40"/>
     </section>
   );
 };
