@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const PreguntasFrec = () => {
   return (
     <section className='bg-gray-100'>
-      <div className='h-[116vh] md:h-[80vh] bg-cover bg-center custom-bg pb-96'>
+      <div className='h-[148vh] md:h-[116vh] bg-cover bg-center custom-bg pb-96'>
         <Link to="/">
           <button className="bg-primaryColor text-white py-2 px-6 rounded-xl text-xl m-10">
             Atrás
