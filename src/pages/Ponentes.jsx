@@ -38,7 +38,7 @@ const cardsData = [
   { image1: JorgeJavier, image2: JorgeJavierCV },
   { image1: MauricioP, image2: MauricioPCV },
 
-  
+
 ];
 
 
