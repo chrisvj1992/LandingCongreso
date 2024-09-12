@@ -36,7 +36,7 @@ const Header = () => {
             <a href="#Home" onClick={() => setShowMenu(false)} class="bebas-neue-regular" className="text-2xl font-medium text-primaryColor">
                 Inicio
             </a>
-            <a href="#Ponentes" onClick={() => setShowMenu(false)} class="bebas-neue-regular" className="text-2xl font-medium text-primaryColor">
+            <a href="./Ponentes" onClick={() => setShowMenu(false)} class="bebas-neue-regular" className="text-2xl font-medium text-primaryColor">
                 Ponentes
             </a>
             <a href="#Talleres" onClick={() => setShowMenu(false)} class="bebas-neue-regular" className="text-2xl font-medium text-primaryColor">

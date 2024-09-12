@@ -5,6 +5,7 @@ import RegistroEnLinea from './pages/RegistroEnLinea';
 import Abstracts from './pages/Abstracts';
 import NotFound from './pages/NotFound';
 import PreguntasFrec from './pages/PreguntasFrec';
+import Ponentes from './pages/Ponentes';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/RegistroEnLinea" element={<RegistroEnLinea />} />
           <Route path="/Abstracts" element={<Abstracts />} />
           <Route path="/PreguntasFrecuentes" element={<PreguntasFrec />} />
+          <Route path="/Ponentes" element={<Ponentes />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
