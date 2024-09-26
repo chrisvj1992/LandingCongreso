@@ -1,7 +1,7 @@
 import React from 'react';
 import Footer from '../components/Footer/Footer';
 import { Link } from 'react-router-dom';
-import Instrucciones from '../assets/images/InstruccionesAbstracts.pdf'
+import Instrucciones from '../assets/images/Rúbrica de Instrucciones para Inscribirse a los Abstracts 2.0.pdf'
 import ImagenConcurso from '../assets/images/ImagenAbstracts.jpg'
 
 const Abstracts = () => {
