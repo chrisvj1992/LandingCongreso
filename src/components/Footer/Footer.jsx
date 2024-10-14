@@ -5,7 +5,7 @@ import {
   RiInstagramLine,
   RiFacebookLine,
 } from "react-icons/ri";
-
+import Sponsors from "../Patrocinadores/Patrocinadores";
 import imgUni from "../../assets/images/logoUniversidadCuau.png";
 import { Link } from 'react-router-dom';
 
@@ -41,18 +41,13 @@ const Footer = () => {
       <div className="mt-8">
         <nav className=" w-full mt-4 flex flex-col md:flex-row items-center justify-center gap-8">
         <Link to="/PreguntasFrecuentes" 
-            className="text-gray-300 mt-4 hover:text-white transition-color">
+            className="text-gray-300 mt-4 font-bold text-xl hover:text-white transition-color">
         Preguntas Frecuentes
         </Link>
-          <a
-            href="#"
-            className="text-gray-300 mt-4 hover:text-white transition-color"
-          >
-            Patrocinadores
-          </a>
+          <Sponsors/>
         </nav>
       </div>
-      <div className="mt-20">
+      <div className="mt-16">
         <p className="text-gray-300 text-center">
         I Congreso Nacional Estudiantil de Cirugía 2024
         </p>
