@@ -54,7 +54,7 @@ const Ponentes = () => {
         </Link>
         
         <h1 className='text-4xl font-bold text-center text-gray-900'>Ponentes que nos acompañan</h1>
-        <div className=' grid grid-cols-1 md:grid-cols-3 m-10 gap-2'>
+        <div className=' grid grid-cols-1 md:grid-cols-3 md:m-10 m-2 gap-2'>
           {cardsData.map((card, index) => (
             <Card key={index} image1={card.image1} image2={card.image2} />
           ))}
